@@ -1,0 +1,19 @@
+DCL@TeamOs-PC MINGW64 /
+$ cd "/c/Users/DCL/Desktop/OS Development/Section Udemy/Boot"
+
+DCL@TeamOs-PC MINGW64 ~/Desktop/OS Development/Section Udemy/Boot
+$ ./build.sh
+./build.sh: line 1: aarch64-linux-gnu-gcc: command not found
+./build.sh: line 2: aarch64-linux-gnu-gcc: command not found
+./build.sh: line 3: aarch64-linux-gnu-ld: command not found
+./build.sh: line 4: aarch64-linux-gnu-objcopy: command not found
+
+DCL@TeamOs-PC MINGW64 ~/Desktop/OS Development/Section Udemy/Boot
+$ chmod +x build.sh
+
+DCL@TeamOs-PC MINGW64 ~/Desktop/OS Development/Section Udemy/Boot
+$ ./build.sh
+Build finished: kernel8.img created.
+
+DCL@TeamOs-PC MINGW64 ~/Desktop/OS Development/Section Udemy/Boot
+$
